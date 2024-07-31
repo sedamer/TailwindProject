@@ -1,16 +1,74 @@
 <!doctype html>
 <html>
+<!-- npm run watch komutuyla çalıştır -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <!-- Header Content -->
+    <header class="py-5 lg:py-12 font-mont">
+        <div class="container flex items-center justify-around space-x-8 lg:space-x-16">
+            <a href="index.html" class="text-3xl font-monto text-cyan-800 font-bold">
+                MOON </a>
+
+            <!-- Mobile Menu -->
+            <div class="block md:hidden">
+                <div class="space-y-2 cursor-pointer">
+                    <div class="bg-black w-7 h-1 rounded-full"></div>
+                    <div class="bg-black w-7 h-1 rounded-full"></div>
+                    <div class="bg-black w-7 h-1 rounded-full"></div>
+                </div>
+            </div>
+            <!-- Navigation -->
+            <nav class="hidden md:flex items-center justify-between ">
+                <div class="flex items-center space-x-4 lg:space-x-8 ">
+                    <a href="index.html" class="text-blueish hover:scale-110 transition duration-500 ">Home</a>
+
+                    <a href="about.html" class="text-blueish hover:scale-110 transition duration-300">About</a>
+                    <a href="contact.html" class="text-blueish hover:scale-110 transition duration-300">Movies</a>
+                    <a href="shop.html" class="text-blueish hover:scale-110 transition duration-300">Celebrities</a>
+                </div>
+                <!-- Login Area -->
+                <div class="flex items-center space-x-4 lg:space-x-8 ">
+                    <form>
+                        <div class="border-r md:px-4 mx-6">
+                            <input type="text" class="text-blueish border-0 focus:outline-none p-1"
+                                placeholder="Search">
+                            <button class="rounded-full text-blueish bg-gray-100 px-6 py-2">LOGIN</button>
+                            <button class="rounded-full text-blueish bg-gray-100  px-6 py-2 flex-nowrap">SIGN
+                                UP</button>
+
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="h-128 group relative">
+        <img src="./images/hero2.jpg" alt="hero" class="h-full w-full object-cover">
+        <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-80 transition duration-500">
+            <div class="flex items-center justify-center h-full">
+                <h1 class="text-transparent group-hover:text-white text-5xl font-monto transition duration-500">
+                    MOON CINEMA</h1>
+            </div>
+
+            <!-- group-hover -->
+        </div>
+    </section>
+
 </body>
 
 </html>
