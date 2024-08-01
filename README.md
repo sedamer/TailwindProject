@@ -1,8 +1,9 @@
 
 # Tailwind Movie Project 🎞️
 
-Front-end Tailwind Movie Project
+Front-end Tailwind Movie Project:
 
+https://master--movieprojectmoon.netlify.app/
 
 ## Kullanılan Teknolojiler
 
